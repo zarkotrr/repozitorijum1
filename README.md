@@ -31,3 +31,33 @@ namespace LearnCS
             const int voltage = 12;
 
             Console.WriteLine(voltage);
+            //
+
+             int number = 5;
+ float fNumber = 5.521F;
+ double dNumber = 10.23893483498D;
+ long lNumber = 10000000000L;
+
+string somestrng = "Some string";
+ char zChar = 'Z';
+
+ double sciNumber = 15.36E23D;
+
+ /*
+ Console.WriteLine(number);
+ Console.WriteLine(fNumber);
+ Console.WriteLine(dNumber);
+ Console.WriteLine(lNumber);
+ Console.WriteLine(somestrng);
+ Console.WriteLine(zChar);
+ Console.WriteLine(sciNumber);
+ */
+
+
+ Console.WriteLine("Vrednost: " + number + " Datatype: " + number.GetType());
+ Console.WriteLine("Vrednost: " + fNumber + " Datatype: " + fNumber.GetType());
+ Console.WriteLine("Vrednost: " + dNumber + " Datatype: " + dNumber.GetType());
+ Console.WriteLine("Vrednost: " + lNumber + " Datatype: " + lNumber.GetType());
+ Console.WriteLine("Vrednost: " + somestrng + " Datatype: " + somestrng.GetType());
+ Console.WriteLine("Vrednost: " + zChar + " Datatype: " + zChar.GetType());
+ Console.WriteLine("Vrednost: " + sciNumber + " Datatype: " + sciNumber.GetType());
