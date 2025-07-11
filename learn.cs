@@ -61,3 +61,25 @@ string somestrng = "Some string";
  Console.WriteLine("Vrednost: " + somestrng + " Datatype: " + somestrng.GetType());
  Console.WriteLine("Vrednost: " + zChar + " Datatype: " + zChar.GetType());
  Console.WriteLine("Vrednost: " + sciNumber + " Datatype: " + sciNumber.GetType());
+//
+
+            Console.WriteLine("#-------------------------#");
+
+Console.WriteLine("Unesite Prvi Broj");
+string prviBroj = Console.ReadLine();
+float pBroj = Convert.ToInt32(prviBroj);
+
+Console.WriteLine("Unesite Drugi Broj");
+string drugiBroj = Console.ReadLine();
+float dBroj = Convert.ToInt32(drugiBroj);
+
+Console.WriteLine("#-------------------------#");
+
+Console.WriteLine("Tip Podatka: " + pBroj.GetType() + " Vrednost: " + pBroj);
+Console.WriteLine("Tip Podatka: " + dBroj.GetType() + " Vrednost: " + dBroj);
+
+Console.WriteLine("Sab: " + (pBroj + dBroj));
+Console.WriteLine("Odu: " + (pBroj - dBroj));
+Console.WriteLine("Mno: " + (pBroj * dBroj));
+Console.WriteLine("Del: " + (pBroj / dBroj));
+Console.WriteLine("Mod: " + (pBroj % dBroj));
